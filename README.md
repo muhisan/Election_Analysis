@@ -33,7 +33,7 @@ The analysis of the election show that:
  3. Calculate the percentage of votes per county.
  4. Determine the largest turnout county.
  
- ## Challenge Summary
+ ## Challenge Results
  - Counties that had a turnout were:
      - Jefferson with 10.5% of the vote and 38,855 votes
      - Denver with 82.5% of the vote and 306,055 votes
