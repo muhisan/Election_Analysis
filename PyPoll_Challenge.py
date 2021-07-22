@@ -6,7 +6,7 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("..", "Resources", "election_results.csv")
+file_to_load = os.path.join("Resources", "election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
@@ -117,7 +117,7 @@ with open(file_to_save, "w") as txt_file:
     largest_turnout_county = (f"\n"
         f"---------------------------\n"
         f"Largest County Turnout: {largest_county_turnout}\n"
-        f"----------------------------\n"
+        f"----------------------------\n\n"
     )
 
     print(largest_turnout_county)
